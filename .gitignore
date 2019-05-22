@@ -1,0 +1,6 @@
+*.zip
+*.tfstate
+*.backup
+lock.json
+.terraform
+
