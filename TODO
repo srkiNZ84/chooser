@@ -1,0 +1,4 @@
+* Move Terraform state to hosted account
+* Output HTTP endpoint after creating infrastructure
+* Setup DNS record for "api.DOMAIN" after creating functions
+* Update Frontend code to use API endpoint for content

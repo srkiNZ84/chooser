@@ -1,3 +1,13 @@
+terraform {
+  backend "remote" {
+    organization = "srdan-nz"
+  
+    workspaces {
+      name = "chooser"
+    }
+  }
+}
+
 provider "google" {
   project = "faas-helloworld"
   region  = "asia-east2"
