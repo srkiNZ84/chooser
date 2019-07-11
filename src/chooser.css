@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+section {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-areas: "head head head" "nav main main" "foot foot foot";
+}
+
+section > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+section > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+section > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+section > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}

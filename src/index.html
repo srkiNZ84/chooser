@@ -1,23 +1,31 @@
 <html>
   <head>
     <title>Chooser Blog Engine</title>
+    <link rel="stylesheet" href="chooser.css" />
     <script type="text/javascript" src="chooser.js"></script>
   </head>
   <body onload="displayPosts()">
-    <p>Content:</p>
-    <br />
-    <ul id="postsDisplay"></ul>
-    <br />
-    <p>Add new post:</p>
-    <textarea id="subjectTextBox" rows="1" columns="30">
-    </textarea>
-    <br />
-    <textarea id="myTextBox" rows="30" columns="30" >
-    </textarea>
-    <br />
-    <button onclick="addPost()" type="button">Add Post</button>
-    <br />
-    <p id="myResultsBox"></p>
+    <section id="page">
+      <header>Header</header>
+      <nav>Navigation</nav>
+      <main>
+        <p>Content:</p>
+        <br />
+        <ul id="postsDisplay"></ul>
+        <br />
+        <p>Add new post:</p>
+        <textarea id="subjectTextBox" rows="1" columns="30">
+        </textarea>
+        <br />
+        <textarea id="myTextBox" rows="30" columns="30" >
+        </textarea>
+        <br />
+        <button onclick="addPost()" type="button">Add Post</button>
+        <br />
+        <p id="myResultsBox"></p>
+      </main>
+      <footer>Footer</footer>
+    </section>
   </body>
 </html>
 
