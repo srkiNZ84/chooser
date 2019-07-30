@@ -1,4 +1,5 @@
 * DONE - Move Terraform state to hosted account
 * DONE - Output HTTP endpoint after creating infrastructure
+* Create TravisCI deploy (both TF-GCP and GH pages)
 * Setup DNS record for "api.DOMAIN" after creating functions
 * Update Frontend code to use API endpoint for content
